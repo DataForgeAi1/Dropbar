@@ -254,7 +254,7 @@ const Privacy: React.FC = () => {
                 <div className="bg-charcoal p-6 rounded-lg">
                   <div className="space-y-2 text-white/70">
                     <p><strong>Email:</strong> privacy@dropbar.com.au</p>
-                    <p><strong>Phone:</strong> +61 412 345 678</p>
+                    <p><strong>Phone:</strong> 0434 991 263</p>
                     <p><strong>Address:</strong> 123 Bar Street, Sydney NSW 2000, Australia</p>
                   </div>
                 </div>

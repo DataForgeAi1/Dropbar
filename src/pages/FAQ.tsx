@@ -319,7 +319,7 @@ const FAQ: React.FC = () => {
                   <CardTitle className="text-lg mb-2">Call Us</CardTitle>
                   <CardDescription>Speak with us directly</CardDescription>
                   <Button asChild variant="outline" className="mt-4">
-                    <a href="tel:+61412345678" className="flex items-center gap-2">
+                    <a href="tel:+61434991263" className="flex items-center gap-2">
                       Call Now
                       <ArrowRight className="h-4 w-4" />
                     </a>

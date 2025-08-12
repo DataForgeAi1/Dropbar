@@ -175,7 +175,7 @@ This project is licensed under the MIT License.
 
 For support or questions, please contact:
 - Email: info@dropbar.com.au
-- Phone: +61 412 345 678
+- Phone: 0434 991 263
 
 ---
 

@@ -43,7 +43,7 @@ const emailTemplates = {
         <p>We have received your quote request for your ${data.eventType} on ${data.eventDate}.</p>
         <p>Our team will review your requirements and get back to you within 24 hours with a detailed quote.</p>
         <p><strong>Service Type:</strong> ${data.serviceType}</p>
-        <p>If you have any urgent questions, please don't hesitate to contact us at info@dropbar.com.au or call us on +61 400 000 000.</p>
+        <p>If you have any urgent questions, please don't hesitate to contact us at info@dropbar.com.au or call us on 0434 991 263.</p>
         <p>Best regards,<br>The Drop Bar Team</p>
       </div>
     `
@@ -73,7 +73,7 @@ const emailTemplates = {
         <p>Dear ${data.name},</p>
         <p>We have received your message regarding "${data.subject}".</p>
         <p>Our team will review your inquiry and get back to you within 24 hours.</p>
-        <p>If you have any urgent questions, please don't hesitate to contact us at info@dropbar.com.au or call us on +61 400 000 000.</p>
+        <p>If you have any urgent questions, please don't hesitate to contact us at info@dropbar.com.au or call us on 0434 991 263.</p>
         <p>Best regards,<br>The Drop Bar Team</p>
       </div>
     `

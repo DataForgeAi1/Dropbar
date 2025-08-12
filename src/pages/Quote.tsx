@@ -610,7 +610,7 @@ const Quote: React.FC = () => {
                  variant="outline" 
                  size="lg"
                  className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-black px-8 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                 onClick={() => window.location.href = 'tel:+61412345678'}
+                onClick={() => window.location.href = 'tel:+61434991263'}
                >
                  Call Now
                </Button>

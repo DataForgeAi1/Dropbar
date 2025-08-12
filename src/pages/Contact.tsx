@@ -41,10 +41,10 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      value: '+61 400 000 000',
+      value: '0434 991 263',
       description: 'Speak directly with our team',
       action: 'Call Now',
-      href: 'tel:+61400000000'
+      href: 'tel:+61434991263'
     },
     {
       icon: Mail,
@@ -577,7 +577,7 @@ const Contact = () => {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-gold/50 focus:ring-2 focus:ring-gold/20 transition-all duration-300"
-                          placeholder="+61 400 000 000"
+                          placeholder="0434 991 263"
                         />
                       </div>
                       

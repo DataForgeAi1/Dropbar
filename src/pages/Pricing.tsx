@@ -156,7 +156,7 @@ const Pricing: React.FC = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      value: '+61 400 000 000',
+      value: '0434 991 263',
       description: 'Speak directly with our team'
     },
     {

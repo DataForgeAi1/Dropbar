@@ -177,7 +177,7 @@ const Footer = () => {
                 transition={{ duration: 0.2 }}
               >
                 <Phone size={18} className="mr-3 text-gold group-hover:scale-110 transition-transform duration-300" />
-                <span className="group-hover:text-white transition-colors duration-300">+61 400 000 000</span>
+                <span className="group-hover:text-white transition-colors duration-300">0434 991 263</span>
               </motion.div>
               <motion.div 
                 className="flex items-center justify-end text-white/60 group"
