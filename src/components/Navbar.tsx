@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { Menu, X, ArrowRight, Sun, Moon } from 'lucide-react'
+import { Menu, X, ArrowRight } from 'lucide-react'
 import { Button } from './ui/button'
 import { useDarkMode } from '../hooks/use-dark-mode'
 
@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const location = useLocation()
   const navigate = useNavigate()
-  const { isDark, toggleDarkMode } = useDarkMode()
+  const { isDark } = useDarkMode()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,18 +69,7 @@ const Navbar = () => {
               </Link>
             ))}
             
-            {/* Dark Mode Toggle */}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2.5 rounded-full bg-white/5 hover:bg-white/15 transition-all duration-300 border border-white/10 hover:border-white/20"
-              aria-label="Toggle dark mode"
-            >
-              {isDark ? (
-                <Sun className="h-4 w-4 text-white/80" />
-              ) : (
-                <Moon className="h-4 w-4 text-white/80" />
-              )}
-            </button>
+            {/* Dark Mode Toggle removed */}
             
             <Button 
               variant="gold"
@@ -95,18 +84,7 @@ const Navbar = () => {
           
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-2">
-            {/* Dark Mode Toggle */}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2.5 rounded-full bg-white/5 hover:bg-white/15 transition-all duration-300 border border-white/10 hover:border-white/20"
-              aria-label="Toggle dark mode"
-            >
-              {isDark ? (
-                <Sun className="h-4 w-4 text-white/80" />
-              ) : (
-                <Moon className="h-4 w-4 text-white/80" />
-              )}
-            </button>
+            {/* Dark Mode Toggle removed */}
             
             <button
               className="text-white/90 hover:text-white transition-colors duration-300 p-2 rounded-lg hover:bg-white/5"
