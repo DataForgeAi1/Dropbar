@@ -10,13 +10,18 @@ To add the hero video for the homepage:
 4. Recommended resolution: 1920x1080 or higher
 5. Recommended file size: Under 10MB for better loading performance
 
-## Current Video Reference
+## SPA Fallback (Apache)
 
-The homepage is currently looking for: `/Veo_Video_Prompt_Generation.mp4`
+If you're hosting on Apache, add an `.htaccess` file in this folder with the rules below so client-side routes resolve to `index.html` on refresh/deep links:
 
-If you have a different video file, you can either:
-- Rename your video file to match this name, or
-- Update the video source in `src/pages/Home.tsx` to match your file name
+```
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+```
 
 ## Fallback
 
