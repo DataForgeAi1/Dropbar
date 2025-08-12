@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center group" onClick={scrollToTop}>
             <img 
-              src="/logo white.png" 
+              src="/logo-white.png" 
               alt="Premium Mobile Bar Service" 
               className="h-14 lg:h-16 w-auto transition-transform duration-300 group-hover:scale-105"
             />

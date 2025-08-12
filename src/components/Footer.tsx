@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <Link to="/" className="inline-block mb-6 group">
               <motion.img 
-                src="/logo white.png" 
+                src="/logo-white.png" 
                 alt="Drop Bar Logo" 
                 className="h-20 lg:h-24 w-auto group-hover:opacity-80 transition-opacity duration-300"
                 whileHover={{ scale: 1.02 }}
